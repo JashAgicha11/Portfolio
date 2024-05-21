@@ -71,7 +71,7 @@ const Services = () => {
             Skills
           </h3>
         </div>
-        <div className=" sm:h-4/5 sm:w-[95%] h-[55vh]  relative sm:top-0 top-10 w-full  px-3 py-2 flex justify-center items-center select-none">
+        <div className=" sm:h-4/5 sm:w-[95%] h-[65vh]  relative sm:top-0 top-10 w-full  px-3 py-2 flex justify-center items-center select-none">
           <div className="progress-box w-[90%] transition ease-linear duration-500">
             <Progress percentage={70} img={react} tag={"React"} />
             <Progress percentage={90} img={javascript} tag={"JavaScript"} />
