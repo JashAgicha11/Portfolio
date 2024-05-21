@@ -28,7 +28,7 @@ const Services = () => {
           </div>
 
           <div className="w-full sm:h-3/4 h-[45vh] sm:flex sm:pl-3 justify-around items-center relative bottom-10 sm:bottom-0">
-            <div className=" sm:size-full h-[80%] ">
+            <div className=" sm:size-full h-[90%] ">
               <ServiceCard
                 img={review}
                 headline={"Front-End Development"}
@@ -37,7 +37,7 @@ const Services = () => {
                 }
               />
             </div>
-            <div className="sm:size-full h-[80%]">
+            <div className="sm:size-full h-[90%]">
               <ServiceCard
                 img={Program}
                 headline={"Web Design"}
@@ -71,7 +71,7 @@ const Services = () => {
             Skills
           </h3>
         </div>
-        <div className=" sm:h-4/5 sm:w-[95%] h-[53vh]  relative sm:top-0 top-10 w-full  px-3 py-2 flex justify-center items-center select-none">
+        <div className=" sm:h-4/5 sm:w-[95%] h-[55vh]  relative sm:top-0 top-10 w-full  px-3 py-2 flex justify-center items-center select-none">
           <div className="progress-box w-[90%] transition ease-linear duration-500">
             <Progress percentage={70} img={react} tag={"React"} />
             <Progress percentage={90} img={javascript} tag={"JavaScript"} />

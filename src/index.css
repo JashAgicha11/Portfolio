@@ -77,7 +77,7 @@
     @apply font-technor text-xs tracking-wider sm:text-2xl sm:font-extrabold leading-4 font-bold select-none cursor-pointer px-4 drop-shadow-lg md:text-2xl md:font-semibold;
   }
   .nav-bar {
-    @apply bg-dark-gray relative position-t mx-[10px] sm:mx-6 rounded-[1rem] flex justify-between items-center sm:h-[7rem] h-[4rem] shadow-[0px_0px_2px_2px] shadow-slate-gray z-50;
+    @apply bg-dark-gray relative position-t mx-[10px] sm:mx-6 rounded-[1rem] flex sm:justify-between justify-around items-center sm:h-[7rem] h-[4rem] shadow-[0px_0px_2px_2px] shadow-slate-gray z-50;
   }
   .nav-change {
     @apply bg-dark-gray top-0 mx-0 flex justify-between items-center sm:h-[5rem] h-[4rem] shadow-none z-50 sticky transition duration-200 ease-linear;

@@ -33,7 +33,7 @@ const Nav = () => {
         </Link>
       </section>
 
-      <div className="sm:w-2/5 w-3/5">
+      <div className="sm:w-2/5 w-[55%]">
         <ul className="flex justify-between sm:w-full padding-r hover:text-gray-400  transition duration-300 ease-linear text-white w-full ">
           <li className="w-1/5">
             <Navlinks tag={"Projects"} link={"Projects"} offset={-40} />
