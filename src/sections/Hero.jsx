@@ -44,7 +44,7 @@ const Hero = () => {
               <a target="_blank" href="https://tailwindcss.com/">
                 Tailwind CSS
               </a>
-            </span>{" "}
+            </span>
             , I specialize in crafting visually stunning and highly interactive
             web applications. Explore my portfolio to witness innovative
             solutions that push the boundaries of user experience.

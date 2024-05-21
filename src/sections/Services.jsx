@@ -62,7 +62,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="sm:w-2/6 w-6/6  sm:h-full h-[50vh] relative sm:top-0 top-[120px]">
+      <div className="sm:w-2/6 w-6/6  sm:h-full h-[55vh] relative sm:top-0 top-[120px]">
         <div className="h-1/5 w-full  padding-l flex flex-col justify-center items-start  ">
           <h1 className="text-sm font-poppins font-semibold text-slate-gray leading-7">
             WHAT I MASTERED
@@ -71,7 +71,7 @@ const Services = () => {
             Skills
           </h3>
         </div>
-        <div className=" sm:h-4/5 sm:w-[95%] h-[60vh]  relative sm:top-0 top-10 w-full  px-3 py-2 flex justify-center items-center select-none">
+        <div className=" sm:h-4/5 sm:w-[95%] h-full  relative sm:top-0 top-10 w-full  px-3 py-2 flex justify-center items-center select-none">
           <div className="progress-box w-[90%] transition ease-linear duration-500">
             <Progress percentage={70} img={react} tag={"React"} />
             <Progress percentage={90} img={javascript} tag={"JavaScript"} />

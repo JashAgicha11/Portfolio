@@ -6,7 +6,7 @@ const App = () => {
     <main className="bg-light-gray h-full max-w-full">
       <Nav />
       <div className="container max-w-full min-h-full">
-        <section className="">
+        <section className="min-h-screen">
           <Hero />
         </section>
 
@@ -14,7 +14,7 @@ const App = () => {
           <Projects />
         </section>
 
-        <section className="sm:h-screen h-[115rem] top-[100px] sm:top-[150px] relative z-40 bg-light-gray rounded-b-xl">
+        <section className="sm:h-screen h-[110rem] top-[100px] sm:top-[150px] relative z-40 bg-light-gray rounded-b-xl">
           <Services />
         </section>
 
