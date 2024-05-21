@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       name="Hero"
-      className=" bg-dark-gray relative flex jus sm:justify-between rounded-[1rem] mx-[15px] sm:mx-[25px] sm:h-[72vh] h-[85vh] sm:top-[40px] top-[25px] select-none shadow-[0px_0px_3px_3px] shadow-slate-gray "
+      className=" bg-dark-gray relative flex jus sm:justify-between rounded-[1rem] mx-[15px] sm:mx-[25px] sm:h-[72vh] h-[90vh] sm:top-[40px] top-[25px] select-none shadow-[0px_0px_3px_3px] shadow-slate-gray "
     >
       <section className="sm:w-2/4 sm:h-full h-full relative flex items-center sm:border-none flex-col">
         <div className="relative w-full sm-flex sm:items-start flex items-center flex-col sm:w-3/4 padding-t tracking-wide sm:leading-10 font-rajdhani sm:text-3xl cursor-text">
