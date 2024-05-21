@@ -27,7 +27,7 @@ const Services = () => {
             </h3>
           </div>
 
-          <div className="w-full sm:h-3/4 h-[45vh] sm:flex sm:pl-3 justify-around items-center relative bottom-10 sm:bottom-0">
+          <div className="w-full sm:h-3/4 h-[40vh] sm:flex sm:pl-3 justify-around items-center relative bottom-10 sm:bottom-0">
             <div className=" sm:size-full h-[90%] ">
               <ServiceCard
                 img={review}
@@ -49,7 +49,7 @@ const Services = () => {
           </div>
         </div>
         <div className=" sm:h-1/4 h-[10vh] sm:flex sm:justify-between sm:items-center justify-center">
-          <div className="w-full  sm:h-full sm:flex sm:justify-center sm:items-center sm:w-2/4">
+          <div className="w-full   sm:h-full sm:flex sm:justify-center sm:items-center sm:w-2/4">
             <MsgCard />
           </div>
 
