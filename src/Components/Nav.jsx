@@ -28,7 +28,7 @@ const Nav = () => {
           <img
             src={Sign}
             alt="Logo"
-            className="w-4/5  sm:w-4/5 sm:h-full h-[4rem] padding-l select-none object-cover"
+            className="w-5/5  sm:w-4/5 sm:h-full h-[4rem] padding-l select-none object-cover"
           />
         </Link>
       </section>
