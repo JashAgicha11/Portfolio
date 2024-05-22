@@ -11,7 +11,7 @@ const CardHover = ({ img, video ,link}) => {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      <a href={link}>
+      <a href={link} target="_blank">
         {hover ? <BoxVideo video={video} /> : <BoxImage img={img} />}
       </a>
       
