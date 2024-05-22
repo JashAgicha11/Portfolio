@@ -6,7 +6,7 @@ const App = () => {
     <main className="bg-light-gray h-full max-w-full">
       <Nav />
       <div className="container max-w-full min-h-full">
-        <section className="min-h-screen">
+        <section className="">
           <Hero />
         </section>
 
