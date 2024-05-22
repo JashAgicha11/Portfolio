@@ -3,7 +3,7 @@ import BoxImage from "./BoxImage";
 import BoxVideo from "./BoxVideo";
 import { useState } from "react";
 
-const CardHover = ({ img, video }) => {
+const CardHover = ({ img, video ,link}) => {
   const [hover, setHover] = useState(false);
   return (
     <div
@@ -11,7 +11,10 @@ const CardHover = ({ img, video }) => {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      {hover ? <BoxVideo video={video} /> : <BoxImage img={img} />}
+      <a href={link}>
+        {hover ? <BoxVideo video={video} /> : <BoxImage img={img} />}
+      </a>
+      
     </div>
   );
 };
